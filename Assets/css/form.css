@@ -1,0 +1,24 @@
+.body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%; 
+    margin: 0 auto; 
+    border: 1px solid black; 
+    padding: 20px; 
+}
+
+.container img {
+    max-height: 95%;
+    max-width: 60%;
+}
+
+.submit {
+   padding: 10px;
+   font-weight: bold;
+   font-size: large;
+   width: 100%;
+   background-color: black(255, 42, 0);
+}

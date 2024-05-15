@@ -1,0 +1,18 @@
+.return {
+    float: right;
+}
+
+.boxes, .box2, .box3, .box4 {
+    width: 80%;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 10px;
+    /* padding: 50%; */
+    border: 3px solid rgb(255, 217, 0);
+    text-align: center;
+
+}
+
+.entry1, .entry2, .entry3, .entry4{
+    text-shadow: 3px 4px 5px rgb(255, 217, 0);
+}
