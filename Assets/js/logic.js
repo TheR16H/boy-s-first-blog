@@ -9,9 +9,11 @@ const button = document.getElementById('toggleDarkMode');
     const body = document.body;
     body.classList.toggle('dark-mode');
     if (body.classList.contains('dark-mode')) {
-      localStorage.setItem('mode', 'dark');
-    } else {
       localStorage.setItem('mode', 'light');
+      body.classList.remove('dark-mode');
+    } else {
+      localStorage.setItem('mode', 'dark');
+      body.classList.add('dark-mode');
     }
   }
 
@@ -21,32 +23,8 @@ const button = document.getElementById('toggleDarkMode');
   }
 
   button.addEventListener('click', function(event) {
+    console.log("Clicked...");
     toggleDarkMode();
   });
 
-  function generateBlogPostElement(post) {
-    const postBox = document.createElement('div');
-    postBox.classList.add('box');
-
-    const postElement = document.createElement('div');
-    const authorElement = document.createElement('h3');
-    authorElement.textContent = post.author;
-    const titleElement = document.createElement('h4');
-    titleElement.textContent = post.title;
-    const contentElement = document.createElement('p');
-    contentElement.textContent = post.content;
-
-    postElement.append(authorElement);
-    postElement.append(titleElement);
-    postElement.append(contentElement);
-
-    postBox.append(postElement);
-
-    return postBox;
-}
-
-storedPosts.forEach(post => {
-    const postElement = generateBlogPostElement(post);
-    postsContainer.appendChild(postElement);
-});
-localStorage.setItem('blogPosts', JSON.stringify(posts));
+  

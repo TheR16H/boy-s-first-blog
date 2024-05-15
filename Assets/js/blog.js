@@ -1,5 +1,5 @@
-// const storedPosts = JSON.parse(localStorage.getItem('blogPosts'));
- 
+ const storedPosts = JSON.parse(localStorage.getItem('blog'));
+ console.log("Stored Data: ", storedPosts);
 
 // const posts = [
 //     {
