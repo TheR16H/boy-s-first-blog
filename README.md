@@ -25,7 +25,7 @@ N/A
 N/A
 
 ## Acknowledgments
-<!-- Multiple peers have been consulted and helped me put this together. -->
+<!-- Multiple peers have been consulted and helped me put this together, and squash a few bugs. -->
 
 ## License
 <!-- MIT License

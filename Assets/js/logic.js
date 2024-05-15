@@ -7,7 +7,7 @@ const button = document.getElementById('toggleDarkMode');
 
   function toggleDarkMode() {
     const body = document.body;
-    body.classList.toggle('dark-mode');
+    // body.classList.toggle('dark-mode');
     if (body.classList.contains('dark-mode')) {
       localStorage.setItem('mode', 'light');
       body.classList.remove('dark-mode');
@@ -20,11 +20,11 @@ const button = document.getElementById('toggleDarkMode');
   const mode = localStorage.getItem('mode');
   if (mode === 'dark') {
     document.body.classList.add('dark-mode');
-  }
+  };
 
   button.addEventListener('click', function(event) {
     console.log("Clicked...");
-    toggleDarkMode();
+    // toggleDarkMode();
   });
 
   
