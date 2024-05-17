@@ -1,9 +1,9 @@
 # 🥹 Boy's first blog
 
 ## Description 
-placeholder
+This is a blog with an functioning light/dark mode which also logs all user input and will append them to the page in blog form.
 
-[title](link to deployed site)
+[Boy's aformentioned blog](https://ther16h.github.io/boy-s-first-blog/)
 
 ## Table of Contents
 
@@ -14,9 +14,8 @@ placeholder
 - [License](#license)
 
 ## Visuals
-![ScreenShot1](link to screenshot)
+![example](./Assets/images/example.gif)
 
-![ScreenShot2](link to screenshot)
 
 ## Support
 N/A
@@ -25,10 +24,10 @@ N/A
 N/A
 
 ## Acknowledgments
-<!-- I've consulted with a number of classmates and Instructors to help me put the final product together and make sure there were no lingering bugs.-->
+Special thanks to the classmates and number of instructors who helped me get rid of any lingering bugs and finalize the page.
 
 ## License
-<!-- MIT License
+MIT License
 
 Copyright (c) 2024 Rashawn Hall
 
@@ -48,4 +47,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. -->
+SOFTWARE.
