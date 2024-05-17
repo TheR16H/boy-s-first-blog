@@ -35,6 +35,7 @@ blogsArray.forEach(blog => {
 });
 
 
+//old data & process before i condensed everything and retyped it a new way.
 
 // const posts = [
 //     {

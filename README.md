@@ -7,8 +7,8 @@ placeholder
 
 ## Table of Contents
 
-- [Support](#support)
 - [Visuals](#visuals)
+- [Support](#support)
 - [Roadmap](#roadmap)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
@@ -25,7 +25,7 @@ N/A
 N/A
 
 ## Acknowledgments
-<!-- Multiple peers have been consulted and helped me put this together, and squash a few bugs. -->
+<!-- I've consulted with a number of classmates and Instructors to help me put the final product together and make sure there were no lingering bugs.-->
 
 ## License
 <!-- MIT License
